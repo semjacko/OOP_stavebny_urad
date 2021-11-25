@@ -1,0 +1,67 @@
+.root {
+     -fx-background-color:#24272b;
+     -fx-focus-color: #ff9900;
+}
+     
+#textik {
+	-fx-fill: white;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff9900;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.tree-cell > .tree-disclosure-node > .arrow  {
+    -fx-background-color: #ff9900;
+}
+
+#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+}
+
+#nadpis {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #ff9900;
+}
+
+.tree-view .tree-cell {
+	-fx-background-color: #24272b;
+    -fx-text-fill: white;
+}
+
+.choice-box .label{
+	-fx-font-size: 16px;
+	-fx-font-weight: normal;
+	-fx-text-fill: black;	
+}
+
+.choice-box .menu-item:focused { 
+	-fx-background-color: #ff9900;
+}
+.choice-box .menu-item > .label { 
+	-fx-text-fill: black;
+}
+
+.radio-button {
+	-fx-text-fill: #ff9900;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#ff9900, #995c00);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#995c00, #ff9900);
+}
